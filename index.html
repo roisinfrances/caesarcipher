@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+    <h1>Caesar Cipher</h1>
+ <div class="main">
+    <label for="Message:">Message:</label>
+    <input id="inputText" type="text">
+<br>
+    <label for="Key:">Key:</label>
+    <input id="shiftKey" type="number" value="3" max="26" min="0" />
+<p>
+    <input type="button" value="encode" onclick="startEncode()">
+    <input type="button" value="decode" onclick="startDecode()">
+<p>
+    <label for="output">Output:</label>
+    <input id="output" type="text" value="output">
+ </div>
+<script src="index.js"></script> 
+</body>
+</html>
